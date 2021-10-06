@@ -1,0 +1,20 @@
+body{
+    background-color: skyblue;
+}
+h1{
+    background-color:orange;
+    padding:0px 150px 50px 10px;
+    border: 1px solid black;
+    margin: 24px;
+}
+.latin {
+    font-size: 40px;
+    color: #f088;
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    line-height: 2.2em;
+}
+#fancy{
+    font-family: 'Ephesis', cursive;
+}
