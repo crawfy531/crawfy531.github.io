@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    margin: 0 auto;
+    text-align: center;
+}
+.big{
+    width: 100%;
+    border:0px;
+    border-radius: 0%;
+    margin: 0%;
+
+}
+body img{
+    width: 23%;
+    border-radius:100%;
+    border:solid rgb(83, 83, 83) 1em;
+    margin: 4%;
+    box-sizing:border-box
+}
