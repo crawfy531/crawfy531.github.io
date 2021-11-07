@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+.material-icons{
+    font-family: 'Material Icons';
+    color: rgb(112, 199, 61);
+    font-size: 50px;
+    text-align: center;
+    font-size: 24px;
+}
