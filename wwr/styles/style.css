@@ -16,6 +16,10 @@ h2{
     width: 80px;
     padding-top: 10px;
 }
+.icon_river{
+    width: 87px;
+    padding-top: 10px;
+}
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -51,14 +55,17 @@ nav a{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    
 }
 #hero-msg h1{
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 2px #17BEBB;
 }
 #hero-msg h4{
     text-align: center;
     color: #FFC914;
+    text-shadow: 2px 2px 2px #2E282A;
 }
 .button-box{
     text-align: center;
@@ -75,7 +82,7 @@ main section img{
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    
+    color: #2E282A;
 }
 .home-title{
     font-family: "Andale Mono", georgia, sans-serif;;
@@ -163,8 +170,12 @@ footer h3{
 footer h3 a:hover{
     text-decoration: underline;
 }
-footer .social img{
+footer .social{
     padding-top: 15px;
+}
+.social a img:hover{
+box-shadow:0px 0px 0px 4px ivory;
+
 }
 .card-img{
     border:10px solid #76B041;
