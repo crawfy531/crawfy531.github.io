@@ -210,13 +210,15 @@ box-shadow:0px 0px 0px 4px ivory;
     grid-row: 2/3;
 }
 /* added content for second page*/
+
 .big_pic_w_text{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr,1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .big_wide_pic{
     width: 100%;
+    height: 100%;
     z-index: -1;
     grid-row: 1/4;
     grid-column: 1/2;
@@ -228,20 +230,21 @@ box-shadow:0px 0px 0px 4px ivory;
     color: white;
     text-shadow: 4px 4px 4px #17BEBB;
     font-size: 100px;
+    margin: 0 auto;
     
 }
 .Idaho{
     background-color:#17BEBB;
-    font-size: 30px;
+    font-size: 1.7vh;
     display: grid;
     grid-template-columns: 45% 10% 45%;
-    grid-template-rows:100px 400px 400px 400px;
+    grid-template-rows:10vh 40vh 40vh 40vh;
     text-align: left;
-    padding:6%;
+    padding:2vw;
     color: #2E282A;
     border: solid #2E282A 10px;
+    line-height: 2.5vh;
     align-items: center;
-    line-height: 1.1em;
 }
 .idaho_title{
     grid-column: 1/4;
@@ -253,6 +256,7 @@ box-shadow:0px 0px 0px 4px ivory;
     grid-row: 2/3;
     border: solid #2E282A 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .idaho_text{
     grid-column: 1/2;
@@ -260,12 +264,15 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 }
 .Idaho_imageII{
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid #2E282A 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .idaho_textII{
     grid-column: 3/4;
@@ -273,6 +280,8 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 
 }
 .Idaho_imageIII{
@@ -280,6 +289,7 @@ box-shadow:0px 0px 0px 4px ivory;
     grid-row: 4/5;
     border: solid #2E282A 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .idaho_textIII{
     grid-column: 1/2;
@@ -287,21 +297,22 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 
 }
 .Utah{
     background-color: #76B041;
-    font-size: 30px;
+    font-size: 1.7vh;
     display: grid;
     grid-template-columns: 45% 10% 45%;
-    grid-template-rows:100px 400px 400px;
+    grid-template-rows:10vh 40vh 40vh;
     text-align: left;
-    padding:6%;
+    padding:2vw;
     color: #2E282A;
     border: solid #FFC914 10px;
+    line-height: 2.5vh;
     align-items: center;
-    line-height: 1.1em;
-    
 }
 .utah_title{
     grid-column: 1/4;
@@ -313,6 +324,7 @@ box-shadow:0px 0px 0px 4px ivory;
     grid-row: 2/3;
     border: solid #FFC914 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .utah_text{
     grid-column: 3/4;
@@ -320,26 +332,29 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 }
 .utah_imageII{
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid #FFC914 10px;
     border-radius: 10px;
+    width: 100%;
 }
 
 .Arazona{
     background-color:#17BEBB;
-    font-size: 30px;
+    font-size: 1.7vh;
     display: grid;
     grid-template-columns: 45% 10% 45%;
-    grid-template-rows:100px 400px 400px;
+    grid-template-rows:10vh 40vh 40vh;
     text-align: left;
-    padding:6%;
+    padding:2vw;
     color: #2E282A;
     border: solid #2E282A 10px;
+    line-height: 2.5vh;
     align-items: center;
-    line-height: 1.1em;
 }
 .Arazona_title{
     grid-column: 1/4;
@@ -351,6 +366,7 @@ box-shadow:0px 0px 0px 4px ivory;
     grid-row: 2/3;
     border: solid #2E282A 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .Arazona_text{
     grid-column: 1/2;
@@ -358,12 +374,15 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 }
 .Arazona_imageII{
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid #2E282A 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .Arazona_textII{
     grid-column: 3/4;
@@ -371,6 +390,8 @@ box-shadow:0px 0px 0px 4px ivory;
     background-color: #ffffff75;
     border-radius: 10px;
     padding:10px;
+    z-index: 1;
+    align-self: center;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
