@@ -1,0 +1,149 @@
+body{   
+    background-color:white;
+    font-family: Arial,Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+h2{
+    font-family: 'Ephesis', cursive, sans-serif;
+    font-size: 2.5vw;
+    color:#4EBC5E;
+    margin:0;
+    padding: 0.5vw 3vw
+}
+h3{
+    font-size: 1.15vw;
+    padding: 0.5vw 1vw;
+    line-height: 1.7em;
+}
+#content{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 75vw 1fr;
+    grid-template-rows: 1fr;
+}
+header{
+    grid-column: 2/3;
+}
+.site-title{
+    background-color:#DE689D;
+    text-align: center;
+    font-family: 'Ephesis', cursive, sans-serif;
+    font-size: 3.6vw;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #00C8F575;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+
+    color: white;
+    font-size: 1.5vw;
+    font-family: Arial,Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 30px 100px;
+    text-shadow: black 3px 3px 3px;
+
+}
+nav a:hover{
+    background-color:#FFE75C75;
+    color:white
+}
+main{
+    grid-column: 2/3;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.big-top-pic{
+    display: grid;
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1;
+    grid-column: 1/3;
+}
+.main-header{
+    grid-column: 1/3;
+    text-align: center;
+    background-color: #4EBC5E;
+    color: white;
+    padding: 1.5vw;
+    letter-spacing: 0.3em;
+    word-spacing: 0em;
+    margin-top: -100px;
+}
+.side-pic{
+    width: 100%;
+    grid-column: 1/2;
+    
+}
+.right-side{
+    grid-column: 2/3;
+    padding: 2vw;
+}
+.introduction-paragraph{
+    background-color: #DE689D95;
+    border-radius: 1vw;
+}
+.support-paragraph{
+background-color: #DE689D95;
+border-radius: 1vw;
+}
+footer{
+    background-color: #FFE75C;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    font-size: 1.3vw;
+    color:black;
+    font-family: Arial,Helvetica, sans-serif;
+    text-align: center;
+}
+.name{
+    grid-column: 1/2;
+    margin: 1.5vw 0;
+}
+footer a{
+    grid-column: 2/3;
+    text-decoration:none;
+    margin: 1.5vw 0;
+    color: black;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: white underline;
+    color:white;
+}
+.social-media{
+    grid-column: 3/4;
+    margin: 1.5vw 0;
+    text-align: right;
+}
+.icon{
+    grid-column: 4/5;
+    font-size: 2vw;
+    margin: 1vw;
+    text-align: left;
+    letter-spacing: 1vw;
+    display: grid;
+    grid-template-columns: 3vw 3vw;
+}
+.facebook{
+    font-size: 100%;
+    color:#00C8F5;
+}
+.deviantart{
+    font-size: 100%;
+    color:#4EBC5E;
+}
+.facebook:hover{
+    color: white;
+}
+.deviantart:hover{
+    color: white;
+}
