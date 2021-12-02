@@ -165,7 +165,7 @@ footer a:hover{
 
 .background_image{
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     grid-row: 1;
     grid-column: 1;
 }
@@ -219,4 +219,9 @@ audio::-webkit-media-controls-current-time-display{
 audio::-webkit-media-controls-time-remaining-display{
     text-shadow: none;
     color: white;
+}
+/*CSS added for paintings and drawings----------------------------
+*/
+.all_img{
+    width: 100%;
 }
