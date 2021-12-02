@@ -1,15 +1,16 @@
-body{   
-    background-color:white;
+body{
+    background-color: transparent;
     font-family: Arial,Helvetica, sans-serif;
     margin:0;
     padding:0;
+    display: grid;
 }
 h2{
     font-family: 'Ephesis', cursive, sans-serif;
     font-size: 2.5vw;
     color:#4EBC5E;
     margin:0;
-    padding: 0.5vw 3vw
+    padding: 0.5vw 1vw
 }
 h3{
     font-size: 1.15vw;
@@ -18,12 +19,12 @@ h3{
 }
 h4{
     font-size: 1vw;
-    margin: 1vw 0;
+    margin: 0.5vw 0;
 }
 h5{
     font-size: 2vw;
     padding: 0pt;
-    margin: 1vw 0vw;
+    margin: 0.5vw 0vw;
     font-family: 'Ephesis', cursive, sans-serif;
 }
 #content{
@@ -32,6 +33,8 @@ h5{
     display: grid;
     grid-template-columns: 1fr 75vw 1fr;
     grid-template-rows: 1fr;
+    grid-row: 1;
+    grid-column: 1;
 }
 header{
     grid-column: 2/3;
@@ -163,9 +166,8 @@ footer a:hover{
 .background_image{
     z-index: -1;
     width: 100%;
-    margin-top: -200px;
-    grid-column: 1/3;
-    grid-row: 1/3;
+    grid-row: 1;
+    grid-column: 1;
 }
 .side_heading{
     text-shadow: black 2px 2px 3px;
@@ -177,7 +179,7 @@ footer a:hover{
 .right_side{
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 5vw;
+    padding: 1vw;
 }
 .right_side_font{
     background-color:#FFFFFF95;
@@ -187,7 +189,7 @@ footer a:hover{
     grid-column: 1/2;
     grid-row: 1/2;
     color: #4EBC5E;
-    margin: 1vw 5vw;
+    margin: 1vw 1vw;
     padding: 0;
     text-shadow: black 2px 2px 3px;
 }
