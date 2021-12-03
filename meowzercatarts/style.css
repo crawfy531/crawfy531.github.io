@@ -3,15 +3,16 @@ body{
     margin:0;
     padding:0;
     display: grid;
-    background-color: #00000095;
+    background-color: #00000075;
 }
 h2{
     font-family: 'Ephesis', cursive, sans-serif;
     font-size: 2.5vw;
-    color:#4EBC5E;
+    color:#7eccea;
     margin:0;
     margin: 0.5vw 1vw;
     text-shadow: black 2px 2px 3px;
+    
 }
 h3{
     font-size: 1.15vw;
@@ -41,7 +42,7 @@ header{
     grid-column: 2/3;
 }
 .site-title{
-    background-color:#DE689D;
+    background-color:#733d76;
     text-align: center;
     font-family: 'Ephesis', cursive, sans-serif;
     font-size: 3.6vw;
@@ -50,7 +51,8 @@ header{
     padding: 0;
 }
 nav{
-    background-color: #00C8F575;
+    background-color: #56284a95
+    ;
     display: flex;
     justify-content: space-evenly;
 }
@@ -65,7 +67,7 @@ nav a{
 
 }
 nav a:hover{
-    background-color:#FFE75C75;
+    background-color:#7eccea95;
     color:white
 }
 main{
@@ -84,7 +86,7 @@ main{
 .main-header{
     grid-column: 1/3;
     text-align: center;
-    background-color: #4EBC5E;
+    background-color:#5380a3 ;
     color: white;
     padding: 1.5vw;
     letter-spacing: 0.3em;
@@ -102,15 +104,17 @@ main{
     padding: 2vw;
 }
 .introduction-paragraph{
-    background-color: #DE689D;
+    background-color: #FFFFFF95;
     border-radius: 1vw;
+    color: #56284a;
 }
 .support-paragraph{
-    background-color: #DE689D;
+    background-color: #FFFFFF95;
     border-radius: 1vw;
+    color: #56284a;
 }
 footer{
-    background-color: #FFE75C;
+    background-color: #733d76;
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 1fr;
@@ -150,11 +154,11 @@ footer a:hover{
 }
 .facebook{
     font-size: 100%;
-    color:#00C8F5;
+    color:#5380a3;
 }
 .deviantart{
     font-size: 100%;
-    color:#4EBC5E;
+    color:#7eccea;
 }
 .facebook:hover{
     color: white;
@@ -171,12 +175,8 @@ footer a:hover{
     grid-row: 1;
     grid-column: 1;
 }
-.side_heading{
-    text-shadow: black 2px 2px 3px;
-}
 .side_paragraph{
-    color: black;
-    text-shadow: #DE689D95 2px 2px 2px;
+    color: #56284a;
 }
 .right_side{
     grid-column: 2/3;
@@ -190,7 +190,7 @@ footer a:hover{
 .left_side{
     grid-column: 1/2;
     grid-row: 1/2;
-    color: #4EBC5E;
+    color: white;
     margin: 16vw 30vw 0vw 13vw;
     padding: 0;
     text-shadow: black 2px 2px 3px;
@@ -202,7 +202,7 @@ audio {
     padding: 0;
 }
 audio::-webkit-media-controls-panel{
-    background-color: #00C8F595;
+    background-color: #7eccea95;
     box-shadow: black 5px 5px 5px;
 }
 audio::-webkit-media-controls-enclosure{
@@ -224,22 +224,22 @@ audio::-webkit-media-controls-time-remaining-display{
 */
 .opening_description{
     grid-column: 1/3;
-    background-color: #FFE75C;
+    background-color: #7eccea95;
     border-radius: 1vw;
     margin: 1vw;
 }
 .all_img{
     height: 20vw;
     margin: 0.5vw;
-    border: #00000095 0.3vw solid;
+    border: #733d76 0.3vw solid;
     border-radius: 1vw;
 }
 .year{
     grid-column: 1/3;
 }
 .year_description{
-    color: black;
-    background-color:#DE689D ;
+    color: #56284a;
+    background-color:#FFFFFF95 ;
     border-radius: 1vw;
     margin: 1vw;
 }
