@@ -37,6 +37,7 @@ h5{
     grid-template-rows: 1fr;
     grid-row: 1;
     grid-column: 1;
+    z-index: 1;
 }
 header{
     grid-column: 2/3;
