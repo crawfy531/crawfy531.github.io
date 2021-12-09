@@ -291,6 +291,10 @@ button{
     line-height: 1.7em;
     margin: 1vw 0;
     font-family: Arial,Helvetica, sans-serif;
+    color: white;
+    background-color:#733d76;
+}
+button:hover{
+    background-color: #FFFFFF95;
     color: #733d76;
-    background-color:#FFFFFF95;
 }
