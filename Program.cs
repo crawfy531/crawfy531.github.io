@@ -23,7 +23,7 @@ public class Jumper{
         }
     }
 //this is the class that runs initilizes a new case of other classes, runs interacts with other classes in an order to run the game, and runs the rules of the game
-//--------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------
 public class Director{
         SecretWords s = new SecretWords();
         Player p = new Player();
