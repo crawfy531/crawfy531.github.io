@@ -1,0 +1,15 @@
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\bin\Debug\net6.0\Junper.exe
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\bin\Debug\net6.0\Junper.deps.json
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\bin\Debug\net6.0\Junper.runtimeconfig.json
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\bin\Debug\net6.0\Junper.dll
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\bin\Debug\net6.0\Junper.pdb
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.csproj.AssemblyReference.cache
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.AssemblyInfoInputs.cache
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.AssemblyInfo.cs
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.csproj.CoreCompileInputs.cache
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.dll
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\refint\Junper.dll
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.pdb
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\Junper.genruntimeconfig.cache
+C:\Users\crawf\Desktop\Byui\Prog with classes\Junper\obj\Debug\net6.0\ref\Junper.dll
